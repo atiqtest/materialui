@@ -22,16 +22,7 @@ $my-theme: mat.define-light-theme((
  density: 0,
 ));
 
-$my-theme-dark: mat.define-dark-theme((
- color: (
-   primary: $my-primary,
-   accent: $my-accent,
-   warn: $my-warn,
- ),
 
-));
-
-@include mat.all-component-colors($my-theme-dark); 
 
 
 

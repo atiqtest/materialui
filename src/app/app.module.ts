@@ -27,6 +27,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { STEPPER_GLOBAL_OPTIONS } from '@angular/cdk/stepper';
 import { NotificationComponent } from './notification/notification.component';
 import { DarkComponent } from './dark/dark.component';
+import { Lay1Component } from './layout/lay1/lay1/lay1.component';
 
 
 
@@ -48,7 +49,8 @@ import { DarkComponent } from './dark/dark.component';
     StepperComponent,
     BodychartComponent,
     NotificationComponent,
-    DarkComponent
+    DarkComponent,
+    Lay1Component
   ],
   imports: [
     BrowserModule,

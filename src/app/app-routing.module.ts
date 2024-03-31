@@ -16,24 +16,34 @@ import { BodychartComponent } from './bodychart/bodychart.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { NotificationComponent } from './notification/notification.component';
 import { DarkComponent } from './dark/dark.component';
+import { Lay1Component } from './layout/lay1/lay1/lay1.component';
 
 const routes: Routes = [
   {path:'',component:LandingComponent},
   {path:'cards',component:CardsComponent},
   {path:'footer',component:FooterComponent},
   {path:'sidenav',component:SidenavComponent},
+
   {path:'swipe',component:SwipeComponent},
   {path:'search',component:SearchbarComponent},
   {path:'searchSuggest',component:SearchSuggestComponent},
+
   {path:'loaders',component:LoadersComponent},
+
   {path:'signup',component:SignInUpComponent},
   {path:'login',component:LoginComponent},
   {path:'tabs',component:TabsComponent},
-  {path:'layout',component:LayoutComponent},
-  {path:'body',component:BodychartComponent},
   {path:'stepper',component:StepperComponent},
+
+  {path:'body',component:BodychartComponent},
+
   {path:'notify',component:NotificationComponent},
-  {path:'dark',component:DarkComponent}
+  {path:'dark',component:DarkComponent},
+
+
+
+  {path:'layout',component:LayoutComponent},
+  {path:'layout1',component:Lay1Component}
 ];
 
 @NgModule({
