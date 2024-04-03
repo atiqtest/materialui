@@ -28,6 +28,7 @@ import { STEPPER_GLOBAL_OPTIONS } from '@angular/cdk/stepper';
 import { NotificationComponent } from './notification/notification.component';
 import { DarkComponent } from './dark/dark.component';
 import { Lay1Component } from './layout/lay1/lay1/lay1.component';
+import { Card1Component } from './cards/card1/card1.component';
 
 
 
@@ -50,7 +51,8 @@ import { Lay1Component } from './layout/lay1/lay1/lay1.component';
     BodychartComponent,
     NotificationComponent,
     DarkComponent,
-    Lay1Component
+    Lay1Component,
+    Card1Component
   ],
   imports: [
     BrowserModule,

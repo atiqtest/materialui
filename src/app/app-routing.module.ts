@@ -17,10 +17,12 @@ import { StepperComponent } from './stepper/stepper.component';
 import { NotificationComponent } from './notification/notification.component';
 import { DarkComponent } from './dark/dark.component';
 import { Lay1Component } from './layout/lay1/lay1/lay1.component';
+import { Card1Component } from './cards/card1/card1.component';
 
 const routes: Routes = [
   {path:'',component:LandingComponent},
   {path:'cards',component:CardsComponent},
+  {path:'cards1',component:Card1Component},
   {path:'footer',component:FooterComponent},
   {path:'sidenav',component:SidenavComponent},
 

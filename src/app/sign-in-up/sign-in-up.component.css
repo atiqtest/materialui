@@ -3,12 +3,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
- background-color: blue;
+  border-radius:10px;
+  background-image:url('https://images6.alphacoders.com/379/379570.png');
+  background-repeat: no-repeat; /* Optional: prevent the background image from repeating */
+  background-size: cover; /* Optional: scale the background image to cover the entire element */
+
 }
 
 .card {
   width: 400px;
- 
+  margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 
+    1px 20px 4px rgba(0, 0, 0, 0.1),      /* Inner shadow */
+     9px 16px 6px rgba(0, 0, 0, 0.15),     /* Darker shadow with a bit more spread */
+      0px 20px 16px rgba(0, 0, 0, 0.2);     /* Darkest shadow with more spread */
+      transition: transform 0.3s ease; /* Add transition for smooth effect */
+      
+      background-image: url('https://img.freepik.com/free-vector/simple-blue-blank-background-vector-business_53876-169282.jpg');
+      background-repeat: no-repeat; /* Optional: prevent the background image from repeating */
+      background-size: cover; /* Optional: scale the background image to cover the entire element */
 }
 
 mat-form-field {    

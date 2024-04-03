@@ -4,6 +4,8 @@
     min-height: 100vh; /* Make sure the parent container takes up the full height of the viewport */
   
   }
+
+ 
   
   .child {
     flex-grow: 1; /* Each child will grow to fit content */
@@ -33,7 +35,5 @@
     flex-grow: 1; /* Expand to fill available space */
   }
   
-  .footer {
- 
-  }
+  
   
