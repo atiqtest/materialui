@@ -18,6 +18,9 @@ import { NotificationComponent } from './notification/notification.component';
 import { DarkComponent } from './dark/dark.component';
 import { Lay1Component } from './layout/lay1/lay1/lay1.component';
 import { Card1Component } from './cards/card1/card1.component';
+import { DoctorComponent } from './dashboards/doctor/doctor.component';
+import { PatientComponent } from './dashboards/patient/patient.component';
+import { PsidenavComponent } from './dashboards/patient/psidenav/psidenav.component';
 
 const routes: Routes = [
   {path:'',component:LandingComponent},
@@ -45,7 +48,13 @@ const routes: Routes = [
 
 
   {path:'layout',component:LayoutComponent},
-  {path:'layout1',component:Lay1Component}
+  {path:'layout1',component:Lay1Component},
+
+  {path:'doctor',component:DoctorComponent},
+  {path:'dsidenav',component:PatientComponent},
+  
+  {path:'patient',component:PatientComponent},
+  {path:'psidenav',component:PsidenavComponent}
 ];
 
 @NgModule({
