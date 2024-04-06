@@ -27,6 +27,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { STEPPER_GLOBAL_OPTIONS } from '@angular/cdk/stepper';
 import { NotificationComponent } from './notification/notification.component';
 import { DarkComponent } from './dark/dark.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
 
 
 
@@ -59,7 +60,8 @@ import { DarkComponent } from './dark/dark.component';
     SharedModule,
     RouterOutlet,
     NgxSkeletonLoaderModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgApexchartsModule
     
   ],
   providers: [
