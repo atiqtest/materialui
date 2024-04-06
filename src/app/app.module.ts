@@ -27,6 +27,13 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { STEPPER_GLOBAL_OPTIONS } from '@angular/cdk/stepper';
 import { NotificationComponent } from './notification/notification.component';
 import { DarkComponent } from './dark/dark.component';
+import { Lay1Component } from './layout/lay1/lay1/lay1.component';
+import { Card1Component } from './cards/card1/card1.component';
+import { DashboardsComponent } from './dashboards/dashboards.component';
+import { PatientComponent } from './dashboards/patient/patient.component';
+import { DoctorComponent } from './dashboards/doctor/doctor.component';
+import { PsidenavComponent } from './dashboards/patient/psidenav/psidenav.component';
+import { DsidenavComponent } from './dashboards/doctor/dsidenav/dsidenav.component';
 import { NgApexchartsModule } from 'ng-apexcharts';
 
 
@@ -49,7 +56,14 @@ import { NgApexchartsModule } from 'ng-apexcharts';
     StepperComponent,
     BodychartComponent,
     NotificationComponent,
-    DarkComponent
+    DarkComponent,
+    Lay1Component,
+    Card1Component,
+    DashboardsComponent,
+    PatientComponent,
+    DoctorComponent,
+    PsidenavComponent,
+    DsidenavComponent
   ],
   imports: [
     BrowserModule,

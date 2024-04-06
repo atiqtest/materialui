@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./swipe.component.css']
 })
 export class SwipeComponent {
-  images: string[] = ['https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=600','https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=600','https://images.pexels.com/photos/3536991/pexels-photo-3536991.jpeg?auto=compress&cs=tinysrgb&w=600']; // Array of image URLs
+  images: string[] = ['https://img1.wsimg.com/isteam/ip/e6e20e86-5501-4435-a039-a4d3c535c442/yelpariana.png/:/rs=w:1160','https://img1.wsimg.com/isteam/ip/e6e20e86-5501-4435-a039-a4d3c535c442/ylepvanessa.png/:/rs=w:1160','https://img1.wsimg.com/isteam/ip/e6e20e86-5501-4435-a039-a4d3c535c442/yelpsandra.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1160,h:899']; // Array of image URLs
   slideIndex: number = 0;
 
   constructor() { }
