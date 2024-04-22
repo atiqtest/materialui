@@ -21,6 +21,8 @@ import { Card1Component } from './cards/card1/card1.component';
 import { DoctorComponent } from './dashboards/doctor/doctor.component';
 import { PatientComponent } from './dashboards/patient/patient.component';
 import { PsidenavComponent } from './dashboards/patient/psidenav/psidenav.component';
+import { BarchartComponent } from './charts/barchart/barchart.component';
+import { ListComponent } from './list/list.component';
 
 const routes: Routes = [
   {path:'',component:LandingComponent},
@@ -54,7 +56,11 @@ const routes: Routes = [
   {path:'dsidenav',component:PatientComponent},
   
   {path:'patient',component:PatientComponent},
-  {path:'psidenav',component:PsidenavComponent}
+  {path:'psidenav',component:PsidenavComponent},
+
+  {path:'barchart',component:BarchartComponent},
+
+  {path:'list',component:ListComponent}
 ];
 
 @NgModule({

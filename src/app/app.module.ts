@@ -34,7 +34,11 @@ import { PatientComponent } from './dashboards/patient/patient.component';
 import { DoctorComponent } from './dashboards/doctor/doctor.component';
 import { PsidenavComponent } from './dashboards/patient/psidenav/psidenav.component';
 import { DsidenavComponent } from './dashboards/doctor/dsidenav/dsidenav.component';
-import { NgApexchartsModule } from 'ng-apexcharts';
+import { ChartsComponent } from './charts/charts.component';
+import { BarchartComponent } from './charts/barchart/barchart.component';
+import { NgxEchartsModule } from 'ngx-echarts';
+import { PtabsComponent } from './dashboards/patient/ptabs/ptabs.component';
+import { ListComponent } from './list/list.component';
 
 
 
@@ -63,7 +67,11 @@ import { NgApexchartsModule } from 'ng-apexcharts';
     PatientComponent,
     DoctorComponent,
     PsidenavComponent,
-    DsidenavComponent
+    DsidenavComponent,
+    ChartsComponent,
+    BarchartComponent,
+    PtabsComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
@@ -75,7 +83,15 @@ import { NgApexchartsModule } from 'ng-apexcharts';
     RouterOutlet,
     NgxSkeletonLoaderModule,
     ReactiveFormsModule,
-    NgApexchartsModule
+    
+    NgxEchartsModule.forRoot({
+      /**
+       * This will import all modules from echarts.
+       * If you only need custom modules,
+       * please refer to [Custom Build] section.
+       */
+      echarts: () => import('echarts'), // or import('./path-to-my-custom-echarts')
+    }),
     
   ],
   providers: [
