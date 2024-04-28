@@ -25,8 +25,9 @@ const routes: Routes = [
   // { path: 'tabs', loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsModule) },
   { path: 'layout', loadChildren: () => import('./layout/layout.module').then(m => m.LayoutModule) },
   { path: 'stepper', loadChildren: () => import('./stepper/stepper.module').then(m => m.StepperModule) },
-  { path: 'notify', loadChildren: () => import('./notification/notification.module').then(m => m.NotificationModule) }
+  { path: 'notify', loadChildren: () => import('./notification/notification.module').then(m => m.NotificationModule) },
 
+  { path: 'patient', loadChildren: () => import('./dashboards/patient/patient.module').then(m => m.PatientModule) }
 
 ];
 

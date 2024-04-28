@@ -13,5 +13,7 @@ import { SharedModule } from '../shared/shared/shared.module';
     BodychartRoutingModule,
     SharedModule
   ]
+,
+  exports:[BodychartComponent]
 })
 export class BodychartModule { }

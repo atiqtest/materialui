@@ -21,10 +21,7 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
-<<<<<<< HEAD
-=======
     "ngx-echarts": "^16.2.0",
->>>>>>> 03cd597 (barchart done)
     "ngx-skeleton-loader": "^7.0.0",
     "node-sass": "^9.0.0",
     "rxjs": "~7.8.0",
